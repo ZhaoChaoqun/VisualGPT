@@ -1,6 +1,6 @@
-import React from 'react';
-import { Text, View } from 'react-native';
+import React, { useEffect } from 'react';
 import AppNavigation from './src/navigation';
+import apiCall from './src/api/openAI';
 
 const App = () => {
   return (

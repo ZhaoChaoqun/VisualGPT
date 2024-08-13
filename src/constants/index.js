@@ -1,3 +1,5 @@
+export const apiKey = '7d81f6e4806d4d5fbab47c339e0519d1'
+export const endPoint = 'https://zcq1.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-02-15-preview'
 export const dummyMessages = [
     {
         role: 'user',
